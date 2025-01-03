@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            background-color:skyblue;
+            padding: 5px;
+            text-align: center;
+
+        }
+        .bt{
+            width: 100%;
+            height: auto;
+        }
+        #ot{
+          width: 50px;
+          border-bottom: rgb(91, 148, 232) solid 2px;
+
+        }
+        #blt{
+            margin: 30px 0 0 60%;
+            border-bottom: rgb(91, 148, 232) solid 2px;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: url("orgiintimg.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display:absolute;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+
+        }
+        input{
+            border: none;
+            background-color: rgba(240, 248, 255, 0);
+            color: aliceblue;
+        }
+        ::placeholder{
+            color: rgba(225, 229, 233, 0.845);
+        }
+        button{
+            margin: 0 0 0 500px;
+            padding: 5px;
+            background-color: orange;
+        }
+        .new{
+            margin: 0 20vw 0 0;
+            padding-right: 20px;
+            width: 50px;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Organization interface</h2>
+   <form action="orgindata.php" method="POST">
+    <div class="container">
+        <div class="new">
+            <input id="blt" name="username" type="text" placeholder="name"><br>
+            <input id="blt" name="contact" type="text" placeholder="contact"><br>
+            <input id="blt" name="location" type="text" placeholder="location"><br>
+        </div>
+       <div class="bt">
+        
+       <input id="blt" name="t1" type="text" placeholder="Enter Blood Type"><input id="ot" name="u1" type="text" placeholder="Units">
+       <br>
+       <input id="blt" name="t2" type="text" placeholder="Enter Blood Type"><input id="ot" name="u2" type="text" placeholder="Units">
+       <br>
+       <input id="blt" name="t3" type="text" placeholder="Enter Blood Type"><input id="ot" name="u3" type="text" placeholder="Units">
+       <br>
+       <input id="blt" name="t4" type="text" placeholder="Enter Blood Type"><input id="ot"  name="u4" type="text" placeholder="Units">
+       <br>
+       <input id="blt" name="t5" type="text" placeholder="Enter Blood Type"><input id="ot" name="u5" type="text" placeholder="Units">
+       <br>
+       <input id="blt" name="t6" type="text" placeholder="Enter Blood Type"><input id="ot" name="u6" type="text" placeholder="Units">
+       <br>
+       <input id="blt" name="t7" type="text" placeholder="Enter Blood Type"><input id="ot" name="u7" type="text" placeholder="Units">
+       <br>
+       <input id="blt"  name="t8" type="text" placeholder="Enter Blood Type"><input id="ot" name="u8" type="text" placeholder="Units">
+       <br><br><br>
+       </div>
+       <button>
+        submit
+       </button>
+   </form>
+</div> 
+<!-- <img src="C:\Users\osonu\OneDrive\Desktop\bt.jpg"> -->
+
+</body>
+</html>

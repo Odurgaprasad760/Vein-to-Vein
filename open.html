@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* From Uiverse.io by ernestnash */ 
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+.btn {
+ display: inline-block;
+ padding: 0.9rem 1.8rem;
+ font-size: 16px;
+ font-weight: 700;
+ color: white;
+ border: 3px solid rgb(239, 247, 16);
+ cursor: pointer;
+ position: relative;
+ background-color: transparent;
+ text-decoration: none;
+ overflow: hidden;
+ z-index: 1;
+ font-family: inherit;
+}
+
+.btn::before {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgb(252, 70, 100);
+ transform: translateX(-100%);
+ transition: all .3s;
+ z-index: -1;
+}
+
+.btn:hover::before {
+ transform: translateX(0);
+}
+.container{
+    background-image: url("https://www.vinmec.com/static/uploads/20220228_100713_426866_kich_thuoc_hong_cau_max_1800x1800_jpg_9a2821c236.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+</style>
+<body>
+    <div>
+        <h1>VEIN TO VEIN</h1>
+    </div>
+    <div class="container">
+        <div>
+            <a class="btn" href="index.html">User</a>
+        </div>
+        <div>
+            <a class="btn" href="orgi.html">Organisation</a>      
+
+        </div>
+          
+          
+    </div>
+</body>
+</html>
